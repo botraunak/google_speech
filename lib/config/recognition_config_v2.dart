@@ -53,6 +53,10 @@ enum RecognitionModelV2 {
   /// (typically recorded at an 8 kHz sampling rate).
   telephony,
 
+  /// est for audio that originated from a phone call
+  /// (typically recorded at an 8 kHz sampling rate).
+  telephony_short,
+
   /// Unified large speech model. Use this model for any
   /// use case that doesn't need streaming.
   chirp,
@@ -65,6 +69,7 @@ enum RecognitionModelV2 {
   /// This is a premium model that costs more than the standard rate.
   /// For pricing visit this page https://cloud.google.com/speech-to-text/pricing
   medical_dictation,
+
   /// To transcribe a conversation between a medical professional and a patient.
   /// This is a premium model that costs more than the standard rate.
   /// For pricing visit this page https://cloud.google.com/speech-to-text/pricing
